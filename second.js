@@ -25,7 +25,7 @@ navigator.geolocation.getCurrentPosition(
 
     try {
       const response = await fetch(
-        `https://geo-api-61zy.onrender.com/find-state?lat=${lat}&long=${long}`
+        `https://geo.geocodingapi.workers.dev/find-state?lat=${lat}&long=${long}`
       );
       // console.log(`Fetch response status: ${response.status}`);
 
